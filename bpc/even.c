@@ -6,7 +6,7 @@ int main()
     printf("enter the number:");
     scanf("%d", &n);
 
-    switch(n%2 == 1)
+    switch(n%2 == 0)
     {
        case 1 : printf("is an even nos");
         break;
